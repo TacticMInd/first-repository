@@ -1,9 +1,11 @@
-def print_hello():
-    print("GoodBye World!!")
+def add(x, y):
+    a = x+ y 
+    return a
 
-def print_now():
-    print("I did all my work")
+def print_KIT():
+    print("KIT")
 
 if __name__ == '__main__':
-    print_hello()
+    print_KIT()
+    print( print_hello(1, 2) )
     
